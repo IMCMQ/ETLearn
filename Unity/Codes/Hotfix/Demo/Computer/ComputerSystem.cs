@@ -1,7 +1,12 @@
-namespace ET.Computer
+namespace ET
 {
-    public class ComputerSystem
+    public static class ComputerSystem
     {
-        
+        public static void Start(this Computer self)
+        {
+            Log.Debug("Computer Start!!!!!!!");
+            self.GetComponent<PCCaseComponent>().StartPower();
+            self.GetComponent<MonitorsComponent>().Display();
+        }
     }
 }
