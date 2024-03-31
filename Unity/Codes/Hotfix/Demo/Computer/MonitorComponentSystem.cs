@@ -1,7 +1,10 @@
 namespace ET
 {
-    public class MonitorSystem
+    public static class MonitorSystem
     {
-        
+        public static void Display(this MonitorsComponent self)
+        {
+            Log.Debug("monitors  start display!!!!!!!");
+        }
     }
 }

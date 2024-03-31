@@ -1,3 +1,6 @@
 {"list":[
-{"_t":"UnitConfig","_id":1001,"Type":1,"Name":"米克尔","Desc":"带有强力攻击技能","Position":1,"Height":178,"Weight":68},
+{"_t":"UnitConfig","_id":1001,"Type":1,"Name":"米克尔1","Desc":"带有强力攻击技能","Position":1,"Height":178,"Weight":68},
+{"_t":"UnitConfig","_id":1002,"Type":1,"Name":"米克尔2","Desc":"带有强力攻击技能","Position":2,"Height":179,"Weight":69},
+{"_t":"UnitConfig","_id":1003,"Type":2,"Name":"米克尔3","Desc":"带有强力攻击技能","Position":3,"Height":180,"Weight":70},
+{"_t":"UnitConfig","_id":1004,"Type":3,"Name":"米克尔4","Desc":"带有强力攻击技能","Position":4,"Height":181,"Weight":71},
 ]}
