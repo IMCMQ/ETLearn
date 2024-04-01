@@ -1,9 +1,17 @@
 ﻿namespace ET
 {
-    public enum UnitType: byte
+    // public enum UnitType: byte
+    // {
+    //     Player = 1,
+    //     Monster = 2,
+    //     NPC = 3,
+    // }
+    public enum UnitType 
     {
-        Player = 1,
-        Monster = 2,
-        NPC = 3,
+        Player,
+        Monster,
+        NPC,
+        DropItem,
+        Box 
     }
 }

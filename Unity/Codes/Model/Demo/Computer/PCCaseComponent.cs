@@ -1,6 +1,7 @@
 namespace ET
 {
-    public class PCCaseComponent
+    [ComponentOf(typeof(Computer))]
+    public class PCCaseComponent : Entity,IAwake
     {
         
     }

@@ -1,6 +1,7 @@
 namespace ET
-{
-    public class KeyboardComponent
+{ 
+    [ComponentOf(typeof(Computer))]
+    public class KeyboardComponent: Entity,IAwake
     {
         
     }
