@@ -1,6 +1,7 @@
 namespace ET
 {
-    public class MonitorsComponent
+    [ComponentOf(typeof(Computer))]
+    public class MonitorsComponent: Entity,IAwake
     {
         
     }
